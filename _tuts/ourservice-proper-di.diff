@@ -1,0 +1,55 @@
+diff --git a/src/Controller/VinylController.php b/src/Controller/VinylController.php
+index ecb582a..f014c3c 100644
+--- a/src/Controller/VinylController.php
++++ b/src/Controller/VinylController.php
+@@ -6,8 +6,6 @@ use App\Service\MixRepository;
+ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+ use Symfony\Component\HttpFoundation\Response;
+ use Symfony\Component\Routing\Annotation\Route;
+-use Symfony\Contracts\Cache\CacheInterface;
+-use Symfony\Contracts\HttpClient\HttpClientInterface;
+ use function Symfony\Component\String\u;
+ 
+ class VinylController extends AbstractController
+@@ -31,11 +29,11 @@ class VinylController extends AbstractController
+     }
+ 
+     #[Route('/browse/{slug}', name: 'app_browse')]
+-    public function browse(HttpClientInterface $httpClient, CacheInterface $cache, MixRepository $mixRepository, string $slug = null): Response
++    public function browse(MixRepository $mixRepository, string $slug = null): Response
+     {
+         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
+ 
+-        $mixes = $mixRepository->findAll($httpClient, $cache);
++        $mixes = $mixRepository->findAll();
+ 
+         return $this->render('vinyl/browse.html.twig', [
+             'genre' => $genre,
+diff --git a/src/Service/MixRepository.php b/src/Service/MixRepository.php
+index 9c4592b..d7bae56 100644
+--- a/src/Service/MixRepository.php
++++ b/src/Service/MixRepository.php
+@@ -8,11 +8,20 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
+ 
+ class MixRepository
+ {
+-    public function findAll(HttpClientInterface $httpClient, CacheInterface $cache): array
++    private $httpClient;
++    private $cache;
++
++    public function __construct(HttpClientInterface $httpClient, CacheInterface $cache)
++    {
++        $this->httpClient = $httpClient;
++        $this->cache = $cache;
++    }
++
++    public function findAll(): array
+     {
+-        return $cache->get('mixes_data', function(CacheItemInterface $cacheItem) use ($httpClient) {
++        return $this->cache->get('mixes_data', function(CacheItemInterface $cacheItem) {
+             $cacheItem->expiresAfter(5);
+-            $response = $httpClient->request('GET', 'https://raw.githubusercontent.com/SymfonyCasts/vinyl-mixes/main/mixes.json');
++            $response = $this->httpClient->request('GET', 'https://raw.githubusercontent.com/SymfonyCasts/vinyl-mixes/main/mixes.json');
+ 
+             return $response->toArray();
+         });

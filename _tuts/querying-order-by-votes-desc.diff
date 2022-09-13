@@ -1,0 +1,13 @@
+diff --git a/src/Controller/VinylController.php b/src/Controller/VinylController.php
+index 0ac73fb..1f93ba4 100644
+--- a/src/Controller/VinylController.php
++++ b/src/Controller/VinylController.php
+@@ -40,7 +40,7 @@ class VinylController extends AbstractController
+     {
+         $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
+ 
+-        $mixes = $mixRepository->findAll();
++        $mixes = $mixRepository->findBy([], ['votes' => 'DESC']);
+ 
+         return $this->render('vinyl/browse.html.twig', [
+             'genre' => $genre,

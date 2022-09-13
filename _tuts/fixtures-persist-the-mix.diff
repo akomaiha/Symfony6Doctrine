@@ -1,0 +1,12 @@
+diff --git a/src/DataFixtures/AppFixtures.php b/src/DataFixtures/AppFixtures.php
+index 588c3b5..589b1d9 100644
+--- a/src/DataFixtures/AppFixtures.php
++++ b/src/DataFixtures/AppFixtures.php
+@@ -17,6 +17,7 @@ class AppFixtures extends Fixture
+         $mix->setGenre($genres[array_rand($genres)]);
+         $mix->setTrackCount(rand(5, 20));
+         $mix->setVotes(rand(-50, 50));
++        $manager->persist($mix);
+ 
+         $manager->flush();
+     }

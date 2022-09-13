@@ -1,0 +1,1175 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "controller-create-vinylcontroller",
+            "name": "Controller: create VinylController",
+            "description": null
+        },
+        {
+            "id": "controller-add-homepage-action",
+            "name": "Controller: add homepage action",
+            "description": null
+        },
+        {
+            "id": "controller-add-attribute-route",
+            "name": "Controller: add attribute route",
+            "description": null
+        },
+        {
+            "id": "controller-return-a-response",
+            "name": "Controller: return a Response",
+            "description": null
+        },
+        {
+            "id": "controller-add-response-return-type",
+            "name": "Controller: Add response return type",
+            "description": null
+        },
+        {
+            "id": "routing-add-browse-route-controller",
+            "name": "Routing: Add \/browse route + controller",
+            "description": null
+        },
+        {
+            "id": "routing-change-to-browse-death-metal",
+            "name": "Routing: Change to \/browse\/death-metal",
+            "description": null
+        },
+        {
+            "id": "routing-add-slug-wildcard",
+            "name": "Routing: Add {slug} wildcard",
+            "description": null
+        },
+        {
+            "id": "routing-add-slug-argument",
+            "name": "Routing: add $slug argument",
+            "description": null
+        },
+        {
+            "id": "routing-type-hint-slug",
+            "name": "Routing: type-hint $slug",
+            "description": null
+        },
+        {
+            "id": "routing-clean-up-slug-for-title",
+            "name": "Routing: clean up $slug for $title",
+            "description": null
+        },
+        {
+            "id": "routing-use-title-from-string-component",
+            "name": "Routing: use title from String component",
+            "description": null
+        },
+        {
+            "id": "routing-allow-slug-to-be-optional",
+            "name": "Routing: allow {slug} to be optional",
+            "description": null
+        },
+        {
+            "id": "routing-make-controller-smart-for-missing-slug",
+            "name": "Routing: make controller smart for missing $slug",
+            "description": null
+        },
+        {
+            "id": "recipes-composer-require-templates",
+            "name": "Recipes: composer require templates",
+            "description": null
+        },
+        {
+            "id": "twig-render-a-template",
+            "name": "Twig: render a template",
+            "description": null
+        },
+        {
+            "id": "twig-add-comment-syntax",
+            "name": "Twig: add {# comment syntax #}",
+            "description": null
+        },
+        {
+            "id": "twig-loop-with-for",
+            "name": "Twig: loop with for",
+            "description": null
+        },
+        {
+            "id": "twig-restructure-array",
+            "name": "Twig: restructure array",
+            "description": null
+        },
+        {
+            "id": "twig-update-for-new-structure",
+            "name": "Twig: update for new structure",
+            "description": null
+        },
+        {
+            "id": "twig-use-upper",
+            "name": "Twig: Use |upper",
+            "description": null
+        },
+        {
+            "id": "twig-upper-lower",
+            "name": "Twig: upper|lower",
+            "description": null
+        },
+        {
+            "id": "twig-remove-upper-filter",
+            "name": "Twig: Remove |upper filter",
+            "description": null
+        },
+        {
+            "id": "twig-add-extends",
+            "name": "Twig: add extends",
+            "description": null
+        },
+        {
+            "id": "twig-add-block-body",
+            "name": "Twig: add block body",
+            "description": null
+        },
+        {
+            "id": "twig-customize-title-block",
+            "name": "Twig: customize title block",
+            "description": null
+        },
+        {
+            "id": "twig-override-title-block",
+            "name": "Twig: override title block",
+            "description": null
+        },
+        {
+            "id": "twig-use-parent",
+            "name": "Twig: Use parent()",
+            "description": null
+        },
+        {
+            "id": "profiler-install-debug",
+            "name": "Profiler: install debug",
+            "description": null
+        },
+        {
+            "id": "profiler-show-dd",
+            "name": "Profiler: show dd()",
+            "description": null
+        },
+        {
+            "id": "profiler-show-dump",
+            "name": "Profiler: show dump()",
+            "description": null
+        },
+        {
+            "id": "profiler-show-dump-in-twig",
+            "name": "Profiler: show dump() in Twig",
+            "description": null
+        },
+        {
+            "id": "profiler-show-dump-with-no-args",
+            "name": "Profiler: show dump() with no args",
+            "description": null
+        },
+        {
+            "id": "profiler-remove-dump",
+            "name": "Profiler: remove dump()",
+            "description": null
+        },
+        {
+            "id": "assets-copy-in-base-layout",
+            "name": "Assets: copy in base layout",
+            "description": null
+        },
+        {
+            "id": "assets-copy-in-images",
+            "name": "Assets: copy in images",
+            "description": null
+        },
+        {
+            "id": "assets-copy-in-app-css",
+            "name": "Assets: copy in app.css",
+            "description": null
+        },
+        {
+            "id": "assets-use-asset-function",
+            "name": "Assets: use asset() function",
+            "description": null
+        },
+        {
+            "id": "assets-install-symfony-assets",
+            "name": "Assets: install symfony\/assets",
+            "description": null
+        },
+        {
+            "id": "assets-using-asset-in-more-places",
+            "name": "Assets: using asset() in more places",
+            "description": null
+        },
+        {
+            "id": "assets-copy-in-homepage-template",
+            "name": "Assets: Copy in homepage template",
+            "description": null
+        },
+        {
+            "id": "assets-make-template-dynamic",
+            "name": "Assets: make template dynamic",
+            "description": null
+        },
+        {
+            "id": "assets-copy-in-browse-template",
+            "name": "Assets: copy in browse template",
+            "description": null
+        },
+        {
+            "id": "assets-make-browse-dynamic",
+            "name": "Assets: make browse dynamic",
+            "description": null
+        },
+        {
+            "id": "linking-give-homepage-route-a-name",
+            "name": "Linking: give homepage route a name",
+            "description": null
+        },
+        {
+            "id": "linking-link-to-homepage",
+            "name": "Linking: link to homepage",
+            "description": null
+        },
+        {
+            "id": "linking-link-to-browse-page",
+            "name": "Linking: link to browse page",
+            "description": null
+        },
+        {
+            "id": "linking-link-with-slug",
+            "name": "Linking: link with {slug}",
+            "description": null
+        },
+        {
+            "id": "api-create-songcontroller-with-action",
+            "name": "API: Create SongController with action",
+            "description": null
+        },
+        {
+            "id": "api-return-jsonresponse",
+            "name": "API: return JsonResponse",
+            "description": null
+        },
+        {
+            "id": "api-use-json",
+            "name": "API: use ->json()",
+            "description": null
+        },
+        {
+            "id": "api-restrict-method-to-get",
+            "name": "API: restrict method to GET",
+            "description": null
+        },
+        {
+            "id": "api-type-hint-id-arg",
+            "name": "API: type-hint $id arg",
+            "description": null
+        },
+        {
+            "id": "api-add-route-requirement-to-id",
+            "name": "API: add route requirement to id",
+            "description": null
+        },
+        {
+            "id": "services-autowire-loggerinterface-and-use",
+            "name": "Services: Autowire LoggerInterface and use",
+            "description": null
+        },
+        {
+            "id": "services-leverage-logger-context",
+            "name": "Services: leverage logger context",
+            "description": null
+        },
+        {
+            "id": "services-inject-twig-and-render",
+            "name": "Services: Inject Twig and render",
+            "description": null
+        },
+        {
+            "id": "services-return-response",
+            "name": "Services: Return Response",
+            "description": null
+        },
+        {
+            "id": "services-revert-twig-change",
+            "name": "Services: revert Twig change",
+            "description": null
+        },
+        {
+            "id": "encore-install-it",
+            "name": "Encore: install it",
+            "description": null
+        },
+        {
+            "id": "encore-yarn-install",
+            "name": "Encore: yarn install",
+            "description": null
+        },
+        {
+            "id": "encore-log-in-app-js",
+            "name": "Encore: log in app.js",
+            "description": null
+        },
+        {
+            "id": "encore-tweak-app-css",
+            "name": "Encore: tweak app.css",
+            "description": null
+        },
+        {
+            "id": "encore-move-css-into-new-app-css",
+            "name": "Encore: move CSS into new app.css",
+            "description": null
+        },
+        {
+            "id": "encore-install-and-use-bootstrap",
+            "name": "Encore: Install and use bootstrap",
+            "description": null
+        },
+        {
+            "id": "encore-point-to-all-in-font-awesome",
+            "name": "Encore: point to all in font awesome",
+            "description": null
+        },
+        {
+            "id": "stimulus-add-data-controller-element",
+            "name": "Stimulus: Add data-controller element",
+            "description": null
+        },
+        {
+            "id": "stimulus-use-stimulus-controller",
+            "name": "Stimulus: use stimulus_controller()",
+            "description": null
+        },
+        {
+            "id": "stimulus-rename-to-song-controllers-controller",
+            "name": "Stimulus: Rename to song-controllers_controller",
+            "description": null
+        },
+        {
+            "id": "stimulus-add-stimulus-action",
+            "name": "Stimulus: Add stimulus_action",
+            "description": null
+        },
+        {
+            "id": "stimulus-install-axios",
+            "name": "Stimulus: install axios",
+            "description": null
+        },
+        {
+            "id": "stimulus-import-axios",
+            "name": "Stimulus: import axios",
+            "description": null
+        },
+        {
+            "id": "stimulus-add-value",
+            "name": "Stimulus: add value",
+            "description": null
+        },
+        {
+            "id": "stimulus-pass-in-value",
+            "name": "Stimulus: Pass in value",
+            "description": null
+        },
+        {
+            "id": "stimulus-make-ajax-call",
+            "name": "Stimulus: Make ajax call",
+            "description": null
+        },
+        {
+            "id": "stimulus-play-audio-on-click",
+            "name": "Stimulus: Play audio on click",
+            "description": null
+        },
+        {
+            "id": "ux-install-turbo",
+            "name": "UX: Install turbo",
+            "description": null
+        },
+        {
+            "id": "pre-ep2-upgrade-deps",
+            "name": "PRE_EP2: Upgrade deps",
+            "description": null
+        },
+        {
+            "id": "pre-ep2-upgrade-npm-assets",
+            "name": "PRE_EP2: Upgrade npm assets",
+            "description": null
+        },
+        {
+            "id": "pre-ep2-commit-encore-assets",
+            "name": "PRE_EP2: commit Encore assets",
+            "description": null
+        },
+        {
+            "id": "pre-ep2-cleaning-out-tutorial",
+            "name": "PRE_EP2: cleaning out tutorial\/",
+            "description": null
+        },
+        {
+            "id": "pre-ep2-make-browse-page-dynamic",
+            "name": "PRE_EP2: make browse page dynamic",
+            "description": null
+        },
+        {
+            "id": "newbundle-render-createdat-on-browse",
+            "name": "NewBundle: render createdAt on browse",
+            "description": null
+        },
+        {
+            "id": "newbundle-install-knp-time-bundle",
+            "name": "NewBundle: install knp-time-bundle",
+            "description": null
+        },
+        {
+            "id": "newbundle-use-new-service-in-controller",
+            "name": "NewBundle: Use new service in controller",
+            "description": null
+        },
+        {
+            "id": "newbundle-render-ago-in-template",
+            "name": "NewBundle: Render ago in template",
+            "description": null
+        },
+        {
+            "id": "newbundle-use-ago-filter",
+            "name": "NewBundle: Use |ago filter",
+            "description": null
+        },
+        {
+            "id": "apirequest-install-http-client",
+            "name": "ApiRequest: install http-client",
+            "description": null
+        },
+        {
+            "id": "apirequest-make-request-in-controller",
+            "name": "ApiRequest: Make request in controller",
+            "description": null
+        },
+        {
+            "id": "apirequest-cleanup-old-method",
+            "name": "ApiRequest: cleanup old method",
+            "description": null
+        },
+        {
+            "id": "apirequest-use-cache-service-in-controller",
+            "name": "ApiRequest: use cache service in controller",
+            "description": null
+        },
+        {
+            "id": "apirequest-set-expiration",
+            "name": "ApiRequest: Set expiration",
+            "description": null
+        },
+        {
+            "id": "config-dump-cache",
+            "name": "Config: dump $cache",
+            "description": null
+        },
+        {
+            "id": "config-change-to-array-cache-adapter",
+            "name": "Config: change to array cache adapter",
+            "description": null
+        },
+        {
+            "id": "environments-change-to-prod-environment",
+            "name": "Environments: change to prod environment",
+            "description": null
+        },
+        {
+            "id": "environments-change-cache-in-prod-only",
+            "name": "Environments: change cache in prod only",
+            "description": null
+        },
+        {
+            "id": "environments-swap-to-use-when-at-dev",
+            "name": "Environments: swap to use when@dev",
+            "description": null
+        },
+        {
+            "id": "environments-remove-dump",
+            "name": "Environments: remove dump()",
+            "description": null
+        },
+        {
+            "id": "environments-back-to-dev-environment",
+            "name": "Environments: back to dev environment",
+            "description": null
+        },
+        {
+            "id": "ourservice-create-service-class",
+            "name": "OurService: Create service class",
+            "description": null
+        },
+        {
+            "id": "ourservice-add-return",
+            "name": "OurService: add return",
+            "description": null
+        },
+        {
+            "id": "ourservice-autowire-and-use",
+            "name": "OurService: autowire & use",
+            "description": null
+        },
+        {
+            "id": "ourservice-add-services-as-method-aargs",
+            "name": "OurService: add services as method aargs",
+            "description": null
+        },
+        {
+            "id": "ourservice-pass-services-to-method",
+            "name": "OurService: Pass services to method",
+            "description": null
+        },
+        {
+            "id": "ourservice-proper-di",
+            "name": "OurService: Proper DI",
+            "description": null
+        },
+        {
+            "id": "ourservice-add-property-types",
+            "name": "OurService: Add property types",
+            "description": null
+        },
+        {
+            "id": "ourservice-use-property-promotion",
+            "name": "OurService: use property promotion",
+            "description": null
+        },
+        {
+            "id": "parameters-dump-in-controller",
+            "name": "Parameters: dump in controller",
+            "description": null
+        },
+        {
+            "id": "parameters-remove-dump",
+            "name": "Parameters: remove dump",
+            "description": null
+        },
+        {
+            "id": "parameters-add-cache-adapter-param",
+            "name": "Parameters: add cache_adapter param",
+            "description": null
+        },
+        {
+            "id": "parameters-reference-it-with-syntax",
+            "name": "Parameters: reference it with %syntax%",
+            "description": null
+        },
+        {
+            "id": "parameters-override-parameter-in-dev",
+            "name": "Parameters: override parameter in dev",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-add-isdebug-arg",
+            "name": "Non-Autowireable: add $isDebug arg",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-add-bind-to-service",
+            "name": "Non-Autowireable: Add bind to service",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-move-parameter-to-services-yaml",
+            "name": "Non-Autowireable: Move parameter to services.yaml",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-global-bind",
+            "name": "Non-Autowireable: global bind",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-bind-with-type",
+            "name": "Non-Autowireable: bind with type",
+            "description": null
+        },
+        {
+            "id": "non-autowireable-show-autowire-attribute",
+            "name": "Non-Autowireable: Show Autowire attribute",
+            "description": null
+        },
+        {
+            "id": "namedautowiring-configure-scoped-client",
+            "name": "NamedAutowiring: configure scoped client",
+            "description": null
+        },
+        {
+            "id": "namedautowiring-use-named-autowiring",
+            "name": "NamedAutowiring: use named autowiring",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-add-twigfilesystem-arg",
+            "name": "ExplicitWiring: add twigFilesystem arg",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-adding-type",
+            "name": "ExplicitWiring: adding type",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-wire-in-services-yaml",
+            "name": "ExplicitWiring: wire in services.yaml",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-remove-yaml-service",
+            "name": "ExplicitWiring: remove YAML service",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-wire-with-autowire-attribute",
+            "name": "ExplicitWiring: Wire with Autowire attribute",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-use-command",
+            "name": "ExplicitWiring: Use command",
+            "description": null
+        },
+        {
+            "id": "explicitwiring-comment-out",
+            "name": "ExplicitWiring: comment-out",
+            "description": null
+        },
+        {
+            "id": "controllers-add-isdebug-controller-arg",
+            "name": "Controllers: add isDebug controller arg",
+            "description": null
+        },
+        {
+            "id": "controllers-add-constructor",
+            "name": "Controllers: add constructor",
+            "description": null
+        },
+        {
+            "id": "controllers-remove-dump",
+            "name": "Controllers: remove dump",
+            "description": null
+        },
+        {
+            "id": "envvars-pass-fake-token-to-api-request",
+            "name": "EnvVars: pass fake token to API request",
+            "description": null
+        },
+        {
+            "id": "envvars-pass-in-real-token",
+            "name": "EnvVars: pass in real token",
+            "description": null
+        },
+        {
+            "id": "envvars-move-token-to-config",
+            "name": "EnvVars: move token to config",
+            "description": null
+        },
+        {
+            "id": "envvars-use-real-token",
+            "name": "EnvVars: use real token",
+            "description": null
+        },
+        {
+            "id": "envvars-use-env-syntax",
+            "name": "EnvVars: use %env()% syntax",
+            "description": null
+        },
+        {
+            "id": "envvars-put-into-env",
+            "name": "EnvVars: put into .env",
+            "description": null
+        },
+        {
+            "id": "envvars-move-into-env-local",
+            "name": "EnvVars: move into .env.local",
+            "description": null
+        },
+        {
+            "id": "vault-create-dev-vault",
+            "name": "Vault: Create dev vault",
+            "description": null
+        },
+        {
+            "id": "vault-create-prod-vault",
+            "name": "Vault: Create prod vault",
+            "description": null
+        },
+        {
+            "id": "vault-dump-http-client",
+            "name": "Vault: dump http client",
+            "description": null
+        },
+        {
+            "id": "vault-remove-env-var-completely",
+            "name": "Vault: remove env var completely",
+            "description": null
+        },
+        {
+            "id": "vault-remove-dump",
+            "name": "Vault: remove dump",
+            "description": null
+        },
+        {
+            "id": "maker-install-it",
+            "name": "Maker: install it",
+            "description": null
+        },
+        {
+            "id": "maker-make-command",
+            "name": "Maker: make:command",
+            "description": null
+        },
+        {
+            "id": "maker-customize-arg-option",
+            "name": "Maker: customize arg\/option",
+            "description": null
+        },
+        {
+            "id": "maker-add-output-logic",
+            "name": "Maker: add output logic",
+            "description": null
+        },
+        {
+            "id": "maker-inject-and-use-service",
+            "name": "Maker: inject and use service",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-upgrading-dependencies",
+            "name": "PRE_EP3: Upgrading dependencies",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-update-debug-bundle-recipe",
+            "name": "PRE_EP3: UPDATE debug-bundle recipe",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-update-flex-recipe",
+            "name": "PRE_EP3: UPDATE flex recipe",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-update-routing-recipe",
+            "name": "PRE_EP3: UPDATE routing recipe",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-update-web-profiler-bundle-recipe",
+            "name": "PRE_EP3: UPDATE web-profiler-bundle recipe",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-update-encore-recipe",
+            "name": "PRE_EP3: UPDATE encore recipe",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-upgrade-node-deps",
+            "name": "PRE_EP3: Upgrade node deps",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-tweaking-styles",
+            "name": "PRE_EP3: tweaking styles",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-changing-navigation-wrapper",
+            "name": "PRE_EP3: changing navigation wrapper",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-re-compiling-yarn-assets",
+            "name": "PRE_EP3: re-compiling yarn assets",
+            "description": null
+        },
+        {
+            "id": "pre-ep3-removing-data-src-on-image",
+            "name": "PRE_EP3: removing data-src on image",
+            "description": null
+        },
+        {
+            "id": "install-install-doctrine",
+            "name": "Install: install Doctrine",
+            "description": null
+        },
+        {
+            "id": "install-set-server-version",
+            "name": "Install: Set server_version",
+            "description": null
+        },
+        {
+            "id": "entity-make-entity-vinylmix",
+            "name": "Entity: make:entity VinylMix",
+            "description": null
+        },
+        {
+            "id": "migration-make-migration",
+            "name": "Migration: make:migration",
+            "description": null
+        },
+        {
+            "id": "migration-add-votes-property",
+            "name": "Migration: Add votes property",
+            "description": null
+        },
+        {
+            "id": "migration-make-new-migration",
+            "name": "Migration: make new migration",
+            "description": null
+        },
+        {
+            "id": "migration-default-votes-to-0",
+            "name": "Migration: default votes to 0",
+            "description": null
+        },
+        {
+            "id": "migration-initiated-createdat-in-the-constructor",
+            "name": "Migration: initiated createdAt in the constructor",
+            "description": null
+        },
+        {
+            "id": "saving-create-mix-new-controller",
+            "name": "Saving: Create \/mix\/new controller",
+            "description": null
+        },
+        {
+            "id": "saving-populate-entity",
+            "name": "Saving: populate entity",
+            "description": null
+        },
+        {
+            "id": "saving-persist-and-flush",
+            "name": "Saving: persist and flush",
+            "description": null
+        },
+        {
+            "id": "querying-query-through-em",
+            "name": "Querying: query through EM",
+            "description": null
+        },
+        {
+            "id": "querying-remove-dd",
+            "name": "Querying: remove dd()",
+            "description": null
+        },
+        {
+            "id": "querying-dump-the-repository",
+            "name": "Querying: dump the repository",
+            "description": null
+        },
+        {
+            "id": "querying-inject-repository-directly",
+            "name": "Querying: inject repository directly",
+            "description": null
+        },
+        {
+            "id": "querying-print-out-votes",
+            "name": "Querying: print out votes",
+            "description": null
+        },
+        {
+            "id": "querying-order-by-votes-desc",
+            "name": "Querying: order by votes DESC",
+            "description": null
+        },
+        {
+            "id": "custom-method-getvotesstring-method",
+            "name": "Custom Method: getVotesString method",
+            "description": null
+        },
+        {
+            "id": "custom-method-getimageurl-entity-method",
+            "name": "Custom Method: getImageUrl() entity method",
+            "description": null
+        },
+        {
+            "id": "querying-delete-old-mixrepository",
+            "name": "Querying: delete old MixRepository",
+            "description": null
+        },
+        {
+            "id": "querying-remove-usages-of-mixrepository",
+            "name": "Querying: remove usages of MixRepository",
+            "description": null
+        },
+        {
+            "id": "customquery-random-genre",
+            "name": "CustomQuery: random genre",
+            "description": null
+        },
+        {
+            "id": "customquery-uncomment-repository-method",
+            "name": "CustomQuery: Uncomment repository method",
+            "description": null
+        },
+        {
+            "id": "customquery-fill-in-custom-method",
+            "name": "CustomQuery: Fill in custom method",
+            "description": null
+        },
+        {
+            "id": "customquery-add-genre-argument",
+            "name": "CustomQuery: Add $genre argument",
+            "description": null
+        },
+        {
+            "id": "customquery-add-andwhere-for-genre",
+            "name": "CustomQuery: add andWhere() for genre",
+            "description": null
+        },
+        {
+            "id": "customquery-add-addorderbyvotesquerybuilder",
+            "name": "CustomQuery: Add addOrderByVotesQueryBuilder()",
+            "description": null
+        },
+        {
+            "id": "delete-me-1",
+            "name": "delete me 1",
+            "description": null
+        },
+        {
+            "id": "showpage-create-show-action",
+            "name": "ShowPage: create show() action",
+            "description": null
+        },
+        {
+            "id": "showpage-query-for-single-vinylmix",
+            "name": "ShowPage: query for single VinylMix",
+            "description": null
+        },
+        {
+            "id": "showpage-create-show-page",
+            "name": "ShowPage: create show page",
+            "description": null
+        },
+        {
+            "id": "showpage-paste-in-better-show-page",
+            "name": "ShowPage: paste in better show page",
+            "description": null
+        },
+        {
+            "id": "showpage-print-my-dynamic-data",
+            "name": "ShowPage: Print my dynamic data",
+            "description": null
+        },
+        {
+            "id": "showpage-link-to-page",
+            "name": "ShowPage: link to page",
+            "description": null
+        },
+        {
+            "id": "showpage-404-on-no-mix-found",
+            "name": "ShowPage: 404 on no mix found",
+            "description": null
+        },
+        {
+            "id": "paramconverter-try-to-use-it",
+            "name": "ParamConverter: try to use it",
+            "description": null
+        },
+        {
+            "id": "paramconverter-install-sensiofwextrabundle",
+            "name": "ParamConverter: install SensioFWExtraBundle",
+            "description": null
+        },
+        {
+            "id": "voting-add-controller-and-form",
+            "name": "Voting: add controller and form",
+            "description": null
+        },
+        {
+            "id": "voting-adding-direction-to-button",
+            "name": "Voting: adding \"direction\" to button",
+            "description": null
+        },
+        {
+            "id": "voting-add-default-direction-value",
+            "name": "Voting: add default direction value",
+            "description": null
+        },
+        {
+            "id": "voting-set-votes-onto-entity",
+            "name": "Voting: set votes onto entity",
+            "description": null
+        },
+        {
+            "id": "voting-flush",
+            "name": "Voting: flush()",
+            "description": null
+        },
+        {
+            "id": "voting-redirect",
+            "name": "Voting: Redirect",
+            "description": null
+        },
+        {
+            "id": "voting-add-flash",
+            "name": "Voting: add flash",
+            "description": null
+        },
+        {
+            "id": "voting-smarter-entity-methods",
+            "name": "Voting: smarter entity methods",
+            "description": null
+        },
+        {
+            "id": "extensions-install-stof-extensions",
+            "name": "Extensions: install stof extensions",
+            "description": null
+        },
+        {
+            "id": "extensions-activate-timestampable",
+            "name": "Extensions: activate timestampable",
+            "description": null
+        },
+        {
+            "id": "extensions-use-trait",
+            "name": "Extensions: use trait",
+            "description": null
+        },
+        {
+            "id": "extensions-make-migration",
+            "name": "Extensions: make:migration",
+            "description": null
+        },
+        {
+            "id": "extensions-enable-sluggable",
+            "name": "Extensions: enable sluggable",
+            "description": null
+        },
+        {
+            "id": "extensions-add-slug-column",
+            "name": "Extensions: add slug column",
+            "description": null
+        },
+        {
+            "id": "extensions-make-slug-unique",
+            "name": "Extensions: make slug unique",
+            "description": null
+        },
+        {
+            "id": "extensions-make-slug-migration",
+            "name": "Extensions: make slug migration",
+            "description": null
+        },
+        {
+            "id": "extensions-add-slug-attribute",
+            "name": "Extensions: add Slug attribute",
+            "description": null
+        },
+        {
+            "id": "extensions-change-route-to-use-slug",
+            "name": "Extensions: change route to use {slug}",
+            "description": null
+        },
+        {
+            "id": "fixtures-install-fixtures-bundle",
+            "name": "Fixtures: install fixtures bundle",
+            "description": null
+        },
+        {
+            "id": "fixtures-copy-new-vinylmix-code-into-fixtures",
+            "name": "Fixtures: copy new VinylMix code into fixtures",
+            "description": null
+        },
+        {
+            "id": "fixtures-persist-the-mix",
+            "name": "Fixtures: persist the mix",
+            "description": null
+        },
+        {
+            "id": "foundry-install-it",
+            "name": "Foundry: install it",
+            "description": null
+        },
+        {
+            "id": "foundry-make-factory",
+            "name": "Foundry: make:factory",
+            "description": null
+        },
+        {
+            "id": "foundry-use-it-in-the-fixtures",
+            "name": "Foundry: use it in the fixtures",
+            "description": null
+        },
+        {
+            "id": "foundry-create-25",
+            "name": "Foundry: create 25",
+            "description": null
+        },
+        {
+            "id": "foundry-tweaking-defaults",
+            "name": "Foundry: tweaking defaults",
+            "description": null
+        },
+        {
+            "id": "foundry-more-defaults-tweaks",
+            "name": "Foundry: more defaults tweaks",
+            "description": null
+        },
+        {
+            "id": "pagination-install-pagerfanta",
+            "name": "Pagination: Install pagerfanta",
+            "description": null
+        },
+        {
+            "id": "pagination-set-up-pager-in-controller",
+            "name": "Pagination: Set up pager in controller",
+            "description": null
+        },
+        {
+            "id": "pagination-render-in-template",
+            "name": "Pagination: render in template",
+            "description": null
+        },
+        {
+            "id": "pagination-install-twig-adapter",
+            "name": "Pagination: install twig adapter",
+            "description": null
+        },
+        {
+            "id": "pagination-render-links",
+            "name": "Pagination: render links",
+            "description": null
+        },
+        {
+            "id": "pagination-set-page-in-controller",
+            "name": "Pagination: set page in controller",
+            "description": null
+        },
+        {
+            "id": "pagination-set-theme",
+            "name": "Pagination: set theme",
+            "description": null
+        },
+        {
+            "id": "foreverscroll-add-turbo-frame-around-things",
+            "name": "ForeverScroll: Add turbo-frame around things",
+            "description": null
+        },
+        {
+            "id": "foreverscroll-make-frame-id-unique-per-page",
+            "name": "ForeverScroll: make frame id unique per page",
+            "description": null
+        },
+        {
+            "id": "foreverscroll-remove-pagerfanta-links",
+            "name": "ForeverScroll: Remove pagerfanta links",
+            "description": null
+        },
+        {
+            "id": "foreverscroll-add-lazy-next-turbo-frame",
+            "name": "ForeverScroll: Add lazy next turbo-frame",
+            "description": null
+        }
+    ],
+    "sha": "23d3b3a50d83ed00f752fb2cb282fd603d2220bc"
+}
